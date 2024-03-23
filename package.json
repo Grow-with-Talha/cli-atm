@@ -1,0 +1,23 @@
+{
+  "name": "growwithtalha-atm",
+  "version": "1.0.0",
+  "description": "A simple ATM CLI simulator written in TypeScript",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["TypeScript", "NodeJS", "ATM", "CLI"],
+  "author": "GrowWithTalha",
+  "license": "ISC",
+  "dependencies": {
+    "gradient-string": "^2.0.2",
+    "inquirer": "^9.2.16",
+    "nanospinner": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/gradient-string": "^1.1.5",
+    "@types/inquirer": "^9.0.7"
+  },
+  "bin": "./index.js"
+}
